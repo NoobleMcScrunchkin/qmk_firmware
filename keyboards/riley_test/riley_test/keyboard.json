@@ -1,0 +1,44 @@
+{
+    "keyboard_name": "RileyTest",
+    "manufacturer": "RileyTest",
+    "url": "https://rileytest.com/products/riley-test-mechanical-keyboard",
+    "maintainer": "RileyTest",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0C61",
+        "device_version": "1.0.0"
+    },
+    "features": {
+        "bootmagic": true,
+        "extrakey": false,
+        "mousekey": false,
+        "nkro": true
+    },
+    // "split": {
+    //     "enabled": true,
+    //     "serial": {
+    //         "driver": "usart"
+    //     },
+    //     "transport": {
+    //         "protocol": "serial",
+    //         "sync": {
+    //             "indicators": true
+    //         }
+    //     }
+    // },
+    "indicators": {
+        "caps_lock": "B15"
+    },
+    "matrix_pins": {
+        "cols": ["A0"],
+        "rows": ["B0"]
+    },
+    "diode_direction": "COL2ROW",
+    "processor": "STM32G474",
+    "bootloader": "stm32-dfu",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [{ "matrix": [0, 0], "x": 0, "y": 0 }]
+        }
+    }
+}
